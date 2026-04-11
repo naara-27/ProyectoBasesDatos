@@ -23,9 +23,9 @@ Partial Class Form1
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Me.DataGridView1 = New System.Windows.Forms.DataGridView()
-        Me.Button1 = New System.Windows.Forms.Button()
-        Me.Button2 = New System.Windows.Forms.Button()
-        Me.Button3 = New System.Windows.Forms.Button()
+        Me.btnInsertarCliente = New System.Windows.Forms.Button()
+        Me.btnActualizarCliente = New System.Windows.Forms.Button()
+        Me.btnSeleccionarCliente = New System.Windows.Forms.Button()
         Me.Button4 = New System.Windows.Forms.Button()
         Me.Button5 = New System.Windows.Forms.Button()
         Me.Button6 = New System.Windows.Forms.Button()
@@ -34,13 +34,13 @@ Partial Class Form1
         Me.Button9 = New System.Windows.Forms.Button()
         Me.GroupBox1 = New System.Windows.Forms.GroupBox()
         Me.GroupBox2 = New System.Windows.Forms.GroupBox()
-        Me.Button10 = New System.Windows.Forms.Button()
-        Me.Button11 = New System.Windows.Forms.Button()
-        Me.Button12 = New System.Windows.Forms.Button()
+        Me.btnSeleccionarProducto = New System.Windows.Forms.Button()
+        Me.btnActualizarProducto = New System.Windows.Forms.Button()
+        Me.btnInsertarProducto = New System.Windows.Forms.Button()
         Me.GroupBox3 = New System.Windows.Forms.GroupBox()
-        Me.Button13 = New System.Windows.Forms.Button()
+        Me.btnSeleccionarProveedor = New System.Windows.Forms.Button()
         Me.Button14 = New System.Windows.Forms.Button()
-        Me.Button15 = New System.Windows.Forms.Button()
+        Me.btnInsertarProveedor = New System.Windows.Forms.Button()
         CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.GroupBox1.SuspendLayout()
         Me.GroupBox2.SuspendLayout()
@@ -55,32 +55,35 @@ Partial Class Form1
         Me.DataGridView1.Size = New System.Drawing.Size(1316, 755)
         Me.DataGridView1.TabIndex = 0
         '
-        'Button1
+        'btnInsertarCliente
         '
-        Me.Button1.Location = New System.Drawing.Point(1095, 10)
-        Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(189, 54)
-        Me.Button1.TabIndex = 3
-        Me.Button1.Text = "Insertar&"
-        Me.Button1.UseVisualStyleBackColor = True
+        Me.btnInsertarCliente.Font = New System.Drawing.Font("Microsoft Sans Serif", 20.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnInsertarCliente.Location = New System.Drawing.Point(1080, 10)
+        Me.btnInsertarCliente.Name = "btnInsertarCliente"
+        Me.btnInsertarCliente.Size = New System.Drawing.Size(204, 54)
+        Me.btnInsertarCliente.TabIndex = 3
+        Me.btnInsertarCliente.Text = "Insertar&"
+        Me.btnInsertarCliente.UseVisualStyleBackColor = True
         '
-        'Button2
+        'btnActualizarCliente
         '
-        Me.Button2.Location = New System.Drawing.Point(1095, 84)
-        Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(189, 54)
-        Me.Button2.TabIndex = 4
-        Me.Button2.Text = "Actualizar&"
-        Me.Button2.UseVisualStyleBackColor = True
+        Me.btnActualizarCliente.Font = New System.Drawing.Font("Microsoft Sans Serif", 20.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnActualizarCliente.Location = New System.Drawing.Point(1080, 84)
+        Me.btnActualizarCliente.Name = "btnActualizarCliente"
+        Me.btnActualizarCliente.Size = New System.Drawing.Size(204, 54)
+        Me.btnActualizarCliente.TabIndex = 4
+        Me.btnActualizarCliente.Text = "Actualizar&"
+        Me.btnActualizarCliente.UseVisualStyleBackColor = True
         '
-        'Button3
+        'btnSeleccionarCliente
         '
-        Me.Button3.Location = New System.Drawing.Point(1095, 159)
-        Me.Button3.Name = "Button3"
-        Me.Button3.Size = New System.Drawing.Size(189, 54)
-        Me.Button3.TabIndex = 5
-        Me.Button3.Text = "Borrar&"
-        Me.Button3.UseVisualStyleBackColor = True
+        Me.btnSeleccionarCliente.Font = New System.Drawing.Font("Microsoft Sans Serif", 20.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnSeleccionarCliente.Location = New System.Drawing.Point(1080, 159)
+        Me.btnSeleccionarCliente.Name = "btnSeleccionarCliente"
+        Me.btnSeleccionarCliente.Size = New System.Drawing.Size(204, 54)
+        Me.btnSeleccionarCliente.TabIndex = 5
+        Me.btnSeleccionarCliente.Text = "Seleccionar"
+        Me.btnSeleccionarCliente.UseVisualStyleBackColor = True
         '
         'Button4
         '
@@ -138,93 +141,99 @@ Partial Class Form1
         '
         'GroupBox1
         '
-        Me.GroupBox1.Controls.Add(Me.Button3)
-        Me.GroupBox1.Controls.Add(Me.Button2)
-        Me.GroupBox1.Controls.Add(Me.Button1)
+        Me.GroupBox1.Controls.Add(Me.btnSeleccionarCliente)
+        Me.GroupBox1.Controls.Add(Me.btnActualizarCliente)
+        Me.GroupBox1.Controls.Add(Me.btnInsertarCliente)
         Me.GroupBox1.Location = New System.Drawing.Point(19, 23)
         Me.GroupBox1.Name = "GroupBox1"
         Me.GroupBox1.Size = New System.Drawing.Size(1295, 231)
         Me.GroupBox1.TabIndex = 12
         Me.GroupBox1.TabStop = False
-        Me.GroupBox1.Text = "GroupBox1"
+        Me.GroupBox1.Text = "Clientes"
         '
         'GroupBox2
         '
-        Me.GroupBox2.Controls.Add(Me.Button10)
-        Me.GroupBox2.Controls.Add(Me.Button11)
-        Me.GroupBox2.Controls.Add(Me.Button12)
+        Me.GroupBox2.Controls.Add(Me.btnSeleccionarProducto)
+        Me.GroupBox2.Controls.Add(Me.btnActualizarProducto)
+        Me.GroupBox2.Controls.Add(Me.btnInsertarProducto)
         Me.GroupBox2.Location = New System.Drawing.Point(23, 275)
         Me.GroupBox2.Name = "GroupBox2"
         Me.GroupBox2.Size = New System.Drawing.Size(1295, 231)
         Me.GroupBox2.TabIndex = 13
         Me.GroupBox2.TabStop = False
-        Me.GroupBox2.Text = "GroupBox2"
+        Me.GroupBox2.Text = "Producto"
         '
-        'Button10
+        'btnSeleccionarProducto
         '
-        Me.Button10.Location = New System.Drawing.Point(1095, 159)
-        Me.Button10.Name = "Button10"
-        Me.Button10.Size = New System.Drawing.Size(189, 54)
-        Me.Button10.TabIndex = 5
-        Me.Button10.Text = "Borrar&"
-        Me.Button10.UseVisualStyleBackColor = True
+        Me.btnSeleccionarProducto.Font = New System.Drawing.Font("Microsoft Sans Serif", 20.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnSeleccionarProducto.Location = New System.Drawing.Point(1076, 159)
+        Me.btnSeleccionarProducto.Name = "btnSeleccionarProducto"
+        Me.btnSeleccionarProducto.Size = New System.Drawing.Size(208, 54)
+        Me.btnSeleccionarProducto.TabIndex = 5
+        Me.btnSeleccionarProducto.Text = "Seleccionar"
+        Me.btnSeleccionarProducto.UseVisualStyleBackColor = True
         '
-        'Button11
+        'btnActualizarProducto
         '
-        Me.Button11.Location = New System.Drawing.Point(1095, 84)
-        Me.Button11.Name = "Button11"
-        Me.Button11.Size = New System.Drawing.Size(189, 54)
-        Me.Button11.TabIndex = 4
-        Me.Button11.Text = "Actualizar&"
-        Me.Button11.UseVisualStyleBackColor = True
+        Me.btnActualizarProducto.Font = New System.Drawing.Font("Microsoft Sans Serif", 20.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnActualizarProducto.Location = New System.Drawing.Point(1076, 84)
+        Me.btnActualizarProducto.Name = "btnActualizarProducto"
+        Me.btnActualizarProducto.Size = New System.Drawing.Size(208, 54)
+        Me.btnActualizarProducto.TabIndex = 4
+        Me.btnActualizarProducto.Text = "Actualizar&"
+        Me.btnActualizarProducto.UseVisualStyleBackColor = True
         '
-        'Button12
+        'btnInsertarProducto
         '
-        Me.Button12.Location = New System.Drawing.Point(1095, 10)
-        Me.Button12.Name = "Button12"
-        Me.Button12.Size = New System.Drawing.Size(189, 54)
-        Me.Button12.TabIndex = 3
-        Me.Button12.Text = "Insertar&"
-        Me.Button12.UseVisualStyleBackColor = True
+        Me.btnInsertarProducto.Font = New System.Drawing.Font("Microsoft Sans Serif", 20.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnInsertarProducto.Location = New System.Drawing.Point(1076, 10)
+        Me.btnInsertarProducto.Name = "btnInsertarProducto"
+        Me.btnInsertarProducto.Size = New System.Drawing.Size(208, 54)
+        Me.btnInsertarProducto.TabIndex = 3
+        Me.btnInsertarProducto.Text = "Insertar&"
+        Me.btnInsertarProducto.UseVisualStyleBackColor = True
         '
         'GroupBox3
         '
-        Me.GroupBox3.Controls.Add(Me.Button13)
+        Me.GroupBox3.Controls.Add(Me.btnSeleccionarProveedor)
         Me.GroupBox3.Controls.Add(Me.Button14)
-        Me.GroupBox3.Controls.Add(Me.Button15)
+        Me.GroupBox3.Controls.Add(Me.btnInsertarProveedor)
         Me.GroupBox3.Location = New System.Drawing.Point(23, 521)
         Me.GroupBox3.Name = "GroupBox3"
         Me.GroupBox3.Size = New System.Drawing.Size(1295, 231)
         Me.GroupBox3.TabIndex = 14
         Me.GroupBox3.TabStop = False
-        Me.GroupBox3.Text = "GroupBox3"
+        Me.GroupBox3.Text = "Proveedor"
         '
-        'Button13
+        'btnSeleccionarProveedor
         '
-        Me.Button13.Location = New System.Drawing.Point(1095, 159)
-        Me.Button13.Name = "Button13"
-        Me.Button13.Size = New System.Drawing.Size(189, 54)
-        Me.Button13.TabIndex = 5
-        Me.Button13.Text = "Borrar&"
-        Me.Button13.UseVisualStyleBackColor = True
+        Me.btnSeleccionarProveedor.Font = New System.Drawing.Font("Microsoft Sans Serif", 20.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnSeleccionarProveedor.Location = New System.Drawing.Point(1076, 159)
+        Me.btnSeleccionarProveedor.Name = "btnSeleccionarProveedor"
+        Me.btnSeleccionarProveedor.Size = New System.Drawing.Size(208, 54)
+        Me.btnSeleccionarProveedor.TabIndex = 5
+        Me.btnSeleccionarProveedor.Text = "Seleccionar"
+        Me.btnSeleccionarProveedor.UseVisualStyleBackColor = True
         '
         'Button14
         '
-        Me.Button14.Location = New System.Drawing.Point(1095, 84)
+        Me.Button14.Font = New System.Drawing.Font("Microsoft Sans Serif", 20.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button14.Location = New System.Drawing.Point(1076, 84)
         Me.Button14.Name = "Button14"
-        Me.Button14.Size = New System.Drawing.Size(189, 54)
+        Me.Button14.Size = New System.Drawing.Size(208, 54)
         Me.Button14.TabIndex = 4
         Me.Button14.Text = "Actualizar&"
         Me.Button14.UseVisualStyleBackColor = True
         '
-        'Button15
+        'btnInsertarProveedor
         '
-        Me.Button15.Location = New System.Drawing.Point(1095, 10)
-        Me.Button15.Name = "Button15"
-        Me.Button15.Size = New System.Drawing.Size(189, 54)
-        Me.Button15.TabIndex = 3
-        Me.Button15.Text = "Insertar&"
-        Me.Button15.UseVisualStyleBackColor = True
+        Me.btnInsertarProveedor.Font = New System.Drawing.Font("Microsoft Sans Serif", 20.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnInsertarProveedor.Location = New System.Drawing.Point(1076, 10)
+        Me.btnInsertarProveedor.Name = "btnInsertarProveedor"
+        Me.btnInsertarProveedor.Size = New System.Drawing.Size(208, 54)
+        Me.btnInsertarProveedor.TabIndex = 3
+        Me.btnInsertarProveedor.Text = "Insertar&"
+        Me.btnInsertarProveedor.UseVisualStyleBackColor = True
         '
         'Form1
         '
@@ -242,7 +251,7 @@ Partial Class Form1
         Me.Controls.Add(Me.Button4)
         Me.Controls.Add(Me.DataGridView1)
         Me.Name = "Form1"
-        Me.Text = "Form1"
+        Me.Text = "Panadería Dulce Trigo"
         CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.GroupBox1.ResumeLayout(False)
         Me.GroupBox2.ResumeLayout(False)
@@ -252,9 +261,9 @@ Partial Class Form1
     End Sub
 
     Friend WithEvents DataGridView1 As DataGridView
-    Friend WithEvents Button1 As Button
-    Friend WithEvents Button2 As Button
-    Friend WithEvents Button3 As Button
+    Friend WithEvents btnInsertarCliente As Button
+    Friend WithEvents btnActualizarCliente As Button
+    Friend WithEvents btnSeleccionarCliente As Button
     Friend WithEvents Button4 As Button
     Friend WithEvents Button5 As Button
     Friend WithEvents Button6 As Button
@@ -263,11 +272,11 @@ Partial Class Form1
     Friend WithEvents Button9 As Button
     Friend WithEvents GroupBox1 As GroupBox
     Friend WithEvents GroupBox2 As GroupBox
-    Friend WithEvents Button10 As Button
-    Friend WithEvents Button11 As Button
-    Friend WithEvents Button12 As Button
+    Friend WithEvents btnSeleccionarProducto As Button
+    Friend WithEvents btnActualizarProducto As Button
+    Friend WithEvents btnInsertarProducto As Button
     Friend WithEvents GroupBox3 As GroupBox
-    Friend WithEvents Button13 As Button
+    Friend WithEvents btnSeleccionarProveedor As Button
     Friend WithEvents Button14 As Button
-    Friend WithEvents Button15 As Button
+    Friend WithEvents btnInsertarProveedor As Button
 End Class
