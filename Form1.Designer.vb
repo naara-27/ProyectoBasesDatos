@@ -165,7 +165,7 @@ Partial Class Form1
         'txtTelefonoCliente
         '
         Me.txtTelefonoCliente.AcceptsTab = True
-        Me.txtTelefonoCliente.Location = New System.Drawing.Point(559, 44)
+        Me.txtTelefonoCliente.Location = New System.Drawing.Point(553, 48)
         Me.txtTelefonoCliente.MaxLength = 8
         Me.txtTelefonoCliente.Name = "txtTelefonoCliente"
         Me.txtTelefonoCliente.Size = New System.Drawing.Size(248, 20)
@@ -183,7 +183,7 @@ Partial Class Form1
         'lblTelefonoCliente
         '
         Me.lblTelefonoCliente.AutoSize = True
-        Me.lblTelefonoCliente.Location = New System.Drawing.Point(495, 47)
+        Me.lblTelefonoCliente.Location = New System.Drawing.Point(495, 51)
         Me.lblTelefonoCliente.Name = "lblTelefonoCliente"
         Me.lblTelefonoCliente.Size = New System.Drawing.Size(52, 13)
         Me.lblTelefonoCliente.TabIndex = 10
@@ -316,7 +316,7 @@ Partial Class Form1
         'lblTelefonoProveedor
         '
         Me.lblTelefonoProveedor.AutoSize = True
-        Me.lblTelefonoProveedor.Location = New System.Drawing.Point(495, 41)
+        Me.lblTelefonoProveedor.Location = New System.Drawing.Point(495, 48)
         Me.lblTelefonoProveedor.Name = "lblTelefonoProveedor"
         Me.lblTelefonoProveedor.Size = New System.Drawing.Size(52, 13)
         Me.lblTelefonoProveedor.TabIndex = 24
@@ -325,7 +325,7 @@ Partial Class Form1
         'lblProveedor
         '
         Me.lblProveedor.AutoSize = True
-        Me.lblProveedor.Location = New System.Drawing.Point(48, 44)
+        Me.lblProveedor.Location = New System.Drawing.Point(38, 48)
         Me.lblProveedor.Name = "lblProveedor"
         Me.lblProveedor.Size = New System.Drawing.Size(113, 13)
         Me.lblProveedor.TabIndex = 23
@@ -334,7 +334,7 @@ Partial Class Form1
         'txtTelefonoProveedor
         '
         Me.txtTelefonoProveedor.AcceptsTab = True
-        Me.txtTelefonoProveedor.Location = New System.Drawing.Point(559, 38)
+        Me.txtTelefonoProveedor.Location = New System.Drawing.Point(553, 45)
         Me.txtTelefonoProveedor.MaxLength = 8
         Me.txtTelefonoProveedor.Name = "txtTelefonoProveedor"
         Me.txtTelefonoProveedor.Size = New System.Drawing.Size(248, 20)
@@ -342,7 +342,7 @@ Partial Class Form1
         '
         'txtProveedor
         '
-        Me.txtProveedor.Location = New System.Drawing.Point(167, 41)
+        Me.txtProveedor.Location = New System.Drawing.Point(157, 45)
         Me.txtProveedor.Name = "txtProveedor"
         Me.txtProveedor.Size = New System.Drawing.Size(248, 20)
         Me.txtProveedor.TabIndex = 21
