@@ -1,9 +1,9 @@
-﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
+﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()>
 Partial Class Form1
     Inherits System.Windows.Forms.Form
 
     'Form reemplaza a Dispose para limpiar la lista de componentes.
-    <System.Diagnostics.DebuggerNonUserCode()> _
+    <System.Diagnostics.DebuggerNonUserCode()>
     Protected Overrides Sub Dispose(ByVal disposing As Boolean)
         Try
             If disposing AndAlso components IsNot Nothing Then
@@ -20,7 +20,7 @@ Partial Class Form1
     'NOTA: el Diseñador de Windows Forms necesita el siguiente procedimiento
     'Se puede modificar usando el Diseñador de Windows Forms.  
     'No lo modifique con el editor de código.
-    <System.Diagnostics.DebuggerStepThrough()> _
+    <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Form1))
         Me.DataGridView1 = New System.Windows.Forms.DataGridView()
@@ -419,10 +419,10 @@ Partial Class Form1
         '
         'PictureBox1
         '
-        Me.PictureBox1.Image = CType(resources.GetObject("PictureBox1.Image"), System.Drawing.Image)
-        Me.PictureBox1.Location = New System.Drawing.Point(41, 117)
+        Me.PictureBox1.BackgroundImage = Global.ProyectoBasesDatos.My.Resources.Resources.pasteles21
+        Me.PictureBox1.Location = New System.Drawing.Point(-142, 149)
         Me.PictureBox1.Name = "PictureBox1"
-        Me.PictureBox1.Size = New System.Drawing.Size(212, 174)
+        Me.PictureBox1.Size = New System.Drawing.Size(1469, 161)
         Me.PictureBox1.TabIndex = 25
         Me.PictureBox1.TabStop = False
         '
@@ -434,8 +434,8 @@ Partial Class Form1
         Me.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink
         Me.BackColor = System.Drawing.Color.PaleGoldenrod
         Me.ClientSize = New System.Drawing.Size(1680, 974)
-        Me.Controls.Add(Me.GroupBox3)
         Me.Controls.Add(Me.GroupBox2)
+        Me.Controls.Add(Me.GroupBox3)
         Me.Controls.Add(Me.GroupBox1)
         Me.Controls.Add(Me.DataGridView1)
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)

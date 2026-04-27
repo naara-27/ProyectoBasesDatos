@@ -63,6 +63,16 @@ Namespace My.Resources
         '''<summary>
         '''  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         '''</summary>
+        Friend ReadOnly Property iconcaker() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("iconcaker", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        '''</summary>
         Friend ReadOnly Property pasteles() As System.Drawing.Bitmap
             Get
                 Dim obj As Object = ResourceManager.GetObject("pasteles", resourceCulture)
@@ -76,6 +86,16 @@ Namespace My.Resources
         Friend ReadOnly Property pasteles2() As System.Drawing.Bitmap
             Get
                 Dim obj As Object = ResourceManager.GetObject("pasteles2", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        '''</summary>
+        Friend ReadOnly Property pasteles21() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("pasteles21", resourceCulture)
                 Return CType(obj,System.Drawing.Bitmap)
             End Get
         End Property
